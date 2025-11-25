@@ -23,9 +23,9 @@ let s:constant     = "#90CAF9"
 let s:type         = "#E6E7A3"
 let s:error        = "#FF5C5C"
 let s:warning      = "#D2D714"
-let s:special      = "#9592A4"
+let s:special      = "#E6E6E6"
 let s:visual       = "#232323"
-let s:cursor       = "#FFCC00"
+let s:cursor       = "#FFFFFF"
 let s:selection    = "#5A5B63"
 let s:linenum      = "#32333B"
 let s:linenum_act  = "#E6E6E6"
@@ -74,7 +74,7 @@ call s:Hi("Search", s:bg, s:search, "")
 call s:Hi("IncSearch", s:bg, s:search, "")
 call s:Hi("MatchParen", "", s:matchbracket, "")
 call s:Hi("Visual", "", s:visual, "")
-call s:Hi("NonText", s:comment, "", "")
+call s:Hi("NonText", s:linenum, "", "")
 call s:Hi("Todo", s:function, s:bg, "italic")
 call s:Hi("Underlined", s:link, "", "underline")
 call s:Hi("Error", s:error, "", "")
