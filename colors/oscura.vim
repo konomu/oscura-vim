@@ -14,7 +14,7 @@ let g:colors_name = "oscura"
 " Define colors
 let s:bg           = "#0B0B0F"
 let s:fg           = "#E6E6E6"
-let s:comment      = "#FFDEF0"
+let s:comment      = "#9099A1"
 let s:keyword      = "#9099A1"
 let s:function     = "#E6E7A3"
 let s:string       = "#90CAF9"
