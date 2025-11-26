@@ -14,7 +14,7 @@ let g:colors_name = "oscura"
 " Define colors
 let s:bg           = "#0B0B0F"
 let s:fg           = "#E6E6E6"
-let s:comment      = "#F48FB1"
+let s:comment      = "#FFDEF0"
 let s:keyword      = "#9099A1"
 let s:function     = "#E6E7A3"
 let s:string       = "#90CAF9"
@@ -112,7 +112,7 @@ call s:Hi("Statement", s:keyword, "", "")
 call s:Hi("Conditional", s:keyword, "", "")
 call s:Hi("Repeat", s:keyword, "", "")
 call s:Hi("Label", s:keyword, "", "")
-call s:Hi("Operator", s:keyword, "", "")
+call s:Hi("Operator", s:fg, "", "")
 call s:Hi("Keyword", s:keyword, "", "")
 call s:Hi("Exception", s:keyword, "", "")
 call s:Hi("PreProc", s:keyword, "", "")
